@@ -3,7 +3,7 @@ import type { ExpoConfig } from "expo/config";
 const config: ExpoConfig = {
   name: "HoldOff",
   slug: "holdoff",
-  version: "1.0.0",
+  version: "1.0.7",
   orientation: "portrait",
   icon: "./assets/images/icon.png",
   scheme: "holdoff",
@@ -20,6 +20,7 @@ const config: ExpoConfig = {
   },
   android: {
     package: "com.holdoff.app",
+    versionCode: 7,
     adaptiveIcon: {
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#150E22",
